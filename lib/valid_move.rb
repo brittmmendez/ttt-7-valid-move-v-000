@@ -1,11 +1,13 @@
 def valid_move?(board,index)
-if
-  index>=0 && index<=8
-then  execute
-else
-  false
+  if index>=0 && index<=8
+    true
+  else
+    false
+  end
+end
 
-  
+
+
 def position_taken?(board,index)
   if board[index]==" "||board[index]==""||board[index]==nil
     false
